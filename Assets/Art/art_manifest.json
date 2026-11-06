@@ -1,0 +1,3580 @@
+{
+  "sheets": [
+    {
+      "path": "Assets/Art/Characters/Operator/operator.png",
+      "group": "Operator",
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frameCount": 20,
+      "pivotX": 0.5,
+      "pivotY": 0.0,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [
+        {
+          "name": "Operator_Idle",
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "fps": 4,
+          "loop": true
+        },
+        {
+          "name": "Operator_Walk",
+          "frames": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "fps": 10,
+          "loop": true
+        },
+        {
+          "name": "Operator_Jump",
+          "frames": [
+            10
+          ],
+          "fps": 10,
+          "loop": false
+        },
+        {
+          "name": "Operator_Fall",
+          "frames": [
+            11
+          ],
+          "fps": 10,
+          "loop": false
+        },
+        {
+          "name": "Operator_Land",
+          "frames": [
+            12,
+            0
+          ],
+          "fps": 12,
+          "loop": false
+        },
+        {
+          "name": "Operator_Interact",
+          "frames": [
+            13,
+            14,
+            15,
+            15,
+            14,
+            13
+          ],
+          "fps": 14,
+          "loop": false
+        },
+        {
+          "name": "Operator_Rewind",
+          "frames": [
+            16,
+            17,
+            16,
+            17,
+            0
+          ],
+          "fps": 16,
+          "loop": false
+        },
+        {
+          "name": "Operator_Collapse",
+          "frames": [
+            12,
+            18,
+            18,
+            18,
+            19
+          ],
+          "fps": 5,
+          "loop": false
+        },
+        {
+          "name": "Operator_Dead",
+          "frames": [
+            19
+          ],
+          "fps": 1,
+          "loop": true
+        }
+      ],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/Environment/Tiles/tileset_complex.png",
+      "group": "Tileset",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "frameCount": 32,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [],
+      "tileFrames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "tileFramesNoCollider": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/Environment/Backgrounds/bg_far.png",
+      "group": "Backgrounds",
+      "frameWidth": 320,
+      "frameHeight": 180,
+      "frameCount": 1,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/Environment/Backgrounds/bg_mid.png",
+      "group": "Backgrounds",
+      "frameWidth": 320,
+      "frameHeight": 180,
+      "frameCount": 1,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/Environment/Backgrounds/bg_archive.png",
+      "group": "Backgrounds",
+      "frameWidth": 320,
+      "frameHeight": 180,
+      "frameCount": 1,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/Environment/Backgrounds/bg_generator.png",
+      "group": "Backgrounds",
+      "frameWidth": 320,
+      "frameHeight": 180,
+      "frameCount": 1,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/Environment/Backgrounds/bg_core.png",
+      "group": "Backgrounds",
+      "frameWidth": 320,
+      "frameHeight": 180,
+      "frameCount": 1,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/Objects/TapeRecorder/tape_recorder.png",
+      "group": "TapeRecorder",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frameCount": 21,
+      "pivotX": 0.5,
+      "pivotY": 0.0,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [
+        {
+          "name": "TapeRecorder_Idle",
+          "frames": [
+            0
+          ],
+          "fps": 1,
+          "loop": true
+        },
+        {
+          "name": "TapeRecorder_Recording",
+          "frames": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "fps": 12,
+          "loop": true
+        },
+        {
+          "name": "TapeRecorder_Playback",
+          "frames": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "fps": 12,
+          "loop": true
+        },
+        {
+          "name": "TapeRecorder_Rewind",
+          "frames": [
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "fps": 18,
+          "loop": true
+        },
+        {
+          "name": "TapeRecorder_MemoryFull",
+          "frames": [
+            19,
+            20
+          ],
+          "fps": 4,
+          "loop": true
+        }
+      ],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/Objects/Door/door_outline.png",
+      "group": "DoorOutline",
+      "frameWidth": 20,
+      "frameHeight": 52,
+      "frameCount": 1,
+      "pivotX": 0.5,
+      "pivotY": 0.038461538461538464,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/Objects/Door/door.png",
+      "group": "Door",
+      "frameWidth": 16,
+      "frameHeight": 48,
+      "frameCount": 7,
+      "pivotX": 0.5,
+      "pivotY": 0.0,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [
+        {
+          "name": "Door_Closed",
+          "frames": [
+            0
+          ],
+          "fps": 1,
+          "loop": true
+        },
+        {
+          "name": "Door_Opening",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "fps": 14,
+          "loop": false
+        },
+        {
+          "name": "Door_Open",
+          "frames": [
+            6
+          ],
+          "fps": 1,
+          "loop": true
+        },
+        {
+          "name": "Door_Closing",
+          "frames": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "fps": 14,
+          "loop": false
+        }
+      ],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/Objects/Switch/switch_lever.png",
+      "group": "Switch",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "frameCount": 3,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [
+        {
+          "name": "Switch_Off",
+          "frames": [
+            0
+          ],
+          "fps": 1,
+          "loop": true
+        },
+        {
+          "name": "Switch_TurningOn",
+          "frames": [
+            0,
+            1,
+            2
+          ],
+          "fps": 16,
+          "loop": false
+        },
+        {
+          "name": "Switch_On",
+          "frames": [
+            2
+          ],
+          "fps": 1,
+          "loop": true
+        },
+        {
+          "name": "Switch_TurningOff",
+          "frames": [
+            2,
+            1,
+            0
+          ],
+          "fps": 16,
+          "loop": false
+        }
+      ],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/Objects/Switch/power_switch.png",
+      "group": "PowerSwitch",
+      "frameWidth": 16,
+      "frameHeight": 24,
+      "frameCount": 3,
+      "pivotX": 0.5,
+      "pivotY": 0.0,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [
+        {
+          "name": "PowerSwitch_Off",
+          "frames": [
+            0
+          ],
+          "fps": 1,
+          "loop": true
+        },
+        {
+          "name": "PowerSwitch_TurningOn",
+          "frames": [
+            0,
+            1,
+            2
+          ],
+          "fps": 12,
+          "loop": false
+        },
+        {
+          "name": "PowerSwitch_On",
+          "frames": [
+            2
+          ],
+          "fps": 1,
+          "loop": true
+        },
+        {
+          "name": "PowerSwitch_TurningOff",
+          "frames": [
+            2,
+            1,
+            0
+          ],
+          "fps": 12,
+          "loop": false
+        }
+      ],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/Objects/MovingPlatform/moving_platform.png",
+      "group": "MovingPlatform",
+      "frameWidth": 48,
+      "frameHeight": 10,
+      "frameCount": 16,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [
+        {
+          "name": "MovingPlatform_Inactive",
+          "frames": [
+            0
+          ],
+          "fps": 1,
+          "loop": true
+        },
+        {
+          "name": "MovingPlatform_Active",
+          "frames": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "fps": 10,
+          "loop": true
+        },
+        {
+          "name": "MovingPlatform_Recording",
+          "frames": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "fps": 10,
+          "loop": true
+        },
+        {
+          "name": "MovingPlatform_Playback",
+          "frames": [
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "fps": 10,
+          "loop": true
+        }
+      ],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/Objects/Conveyor/conveyor.png",
+      "group": "Conveyor",
+      "frameWidth": 48,
+      "frameHeight": 12,
+      "frameCount": 4,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [
+        {
+          "name": "Conveyor_Off",
+          "frames": [
+            0
+          ],
+          "fps": 1,
+          "loop": true
+        },
+        {
+          "name": "Conveyor_Right",
+          "frames": [
+            3,
+            2,
+            1,
+            0
+          ],
+          "fps": 12,
+          "loop": true
+        },
+        {
+          "name": "Conveyor_Left",
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "fps": 12,
+          "loop": true
+        }
+      ],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/Objects/CRTMonitor/crt_monitor_outline.png",
+      "group": "CRTMonitorOutline",
+      "frameWidth": 36,
+      "frameHeight": 36,
+      "frameCount": 1,
+      "pivotX": 0.5,
+      "pivotY": 0.05555555555555555,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/Objects/CRTMonitor/crt_monitor.png",
+      "group": "CRTMonitor",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frameCount": 7,
+      "pivotX": 0.5,
+      "pivotY": 0.0,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [
+        {
+          "name": "CRTMonitor_On",
+          "frames": [
+            0,
+            1,
+            2,
+            0,
+            1,
+            3
+          ],
+          "fps": 4,
+          "loop": true
+        },
+        {
+          "name": "CRTMonitor_Error",
+          "frames": [
+            4,
+            5
+          ],
+          "fps": 4,
+          "loop": true
+        },
+        {
+          "name": "CRTMonitor_Off",
+          "frames": [
+            6
+          ],
+          "fps": 1,
+          "loop": true
+        }
+      ],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/Objects/Terminal/main_terminal.png",
+      "group": "MainTerminal",
+      "frameWidth": 48,
+      "frameHeight": 40,
+      "frameCount": 11,
+      "pivotX": 0.5,
+      "pivotY": 0.0,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [
+        {
+          "name": "MainTerminal_Off",
+          "frames": [
+            0
+          ],
+          "fps": 1,
+          "loop": true
+        },
+        {
+          "name": "MainTerminal_Locked",
+          "frames": [
+            1,
+            2
+          ],
+          "fps": 3,
+          "loop": true
+        },
+        {
+          "name": "MainTerminal_Active",
+          "frames": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "fps": 5,
+          "loop": true
+        },
+        {
+          "name": "MainTerminal_Glitch",
+          "frames": [
+            7,
+            8,
+            9,
+            10,
+            8,
+            7
+          ],
+          "fps": 14,
+          "loop": true
+        }
+      ],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/Objects/Terminal/main_terminal_outline.png",
+      "group": "MainTerminalOutline",
+      "frameWidth": 52,
+      "frameHeight": 44,
+      "frameCount": 1,
+      "pivotX": 0.5,
+      "pivotY": 0.045454545454545456,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/Objects/Terminal/exit_terminal_outline.png",
+      "group": "ExitTerminalOutline",
+      "frameWidth": 20,
+      "frameHeight": 36,
+      "frameCount": 1,
+      "pivotX": 0.5,
+      "pivotY": 0.05555555555555555,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/Objects/Terminal/exit_terminal.png",
+      "group": "ExitTerminal",
+      "frameWidth": 16,
+      "frameHeight": 32,
+      "frameCount": 4,
+      "pivotX": 0.5,
+      "pivotY": 0.0,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [
+        {
+          "name": "ExitTerminal_Locked",
+          "frames": [
+            0,
+            1
+          ],
+          "fps": 2,
+          "loop": true
+        },
+        {
+          "name": "ExitTerminal_Unlocked",
+          "frames": [
+            2,
+            3
+          ],
+          "fps": 4,
+          "loop": true
+        }
+      ],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/Objects/Terminal/main_computer.png",
+      "group": "MainComputer",
+      "frameWidth": 96,
+      "frameHeight": 64,
+      "frameCount": 11,
+      "pivotX": 0.5,
+      "pivotY": 0.0,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [
+        {
+          "name": "MainComputer_Off",
+          "frames": [
+            0
+          ],
+          "fps": 1,
+          "loop": true
+        },
+        {
+          "name": "MainComputer_Locked",
+          "frames": [
+            1,
+            2
+          ],
+          "fps": 2,
+          "loop": true
+        },
+        {
+          "name": "MainComputer_Active",
+          "frames": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "fps": 5,
+          "loop": true
+        },
+        {
+          "name": "MainComputer_Glitch",
+          "frames": [
+            7,
+            8,
+            9,
+            10,
+            8,
+            7
+          ],
+          "fps": 14,
+          "loop": true
+        }
+      ],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/Objects/Terminal/main_computer_outline.png",
+      "group": "MainComputerOutline",
+      "frameWidth": 100,
+      "frameHeight": 68,
+      "frameCount": 1,
+      "pivotX": 0.5,
+      "pivotY": 0.029411764705882353,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/Objects/Terminal/small_terminal.png",
+      "group": "SmallTerminal",
+      "frameWidth": 32,
+      "frameHeight": 24,
+      "frameCount": 9,
+      "pivotX": 0.5,
+      "pivotY": 0.0,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [
+        {
+          "name": "SmallTerminal_Off",
+          "frames": [
+            0
+          ],
+          "fps": 1,
+          "loop": true
+        },
+        {
+          "name": "SmallTerminal_Standby",
+          "frames": [
+            1,
+            2
+          ],
+          "fps": 2,
+          "loop": true
+        },
+        {
+          "name": "SmallTerminal_Active",
+          "frames": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "fps": 5,
+          "loop": true
+        },
+        {
+          "name": "SmallTerminal_Error",
+          "frames": [
+            7,
+            8
+          ],
+          "fps": 4,
+          "loop": true
+        }
+      ],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/Objects/Terminal/small_terminal_outline.png",
+      "group": "SmallTerminalOutline",
+      "frameWidth": 36,
+      "frameHeight": 28,
+      "frameCount": 1,
+      "pivotX": 0.5,
+      "pivotY": 0.07142857142857142,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/Decor/vent_fan.png",
+      "group": "VentFan",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "frameCount": 4,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [
+        {
+          "name": "VentFan_Spin",
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "fps": 16,
+          "loop": true
+        }
+      ],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/Decor/warning_beacon.png",
+      "group": "WarningBeacon",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "frameCount": 4,
+      "pivotX": 0.5,
+      "pivotY": 0.0,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [
+        {
+          "name": "WarningBeacon_Spin",
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "fps": 8,
+          "loop": true
+        }
+      ],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/Decor/mainframe_tape_drive.png",
+      "group": "Mainframe",
+      "frameWidth": 16,
+      "frameHeight": 32,
+      "frameCount": 6,
+      "pivotX": 0.5,
+      "pivotY": 0.0,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [
+        {
+          "name": "Mainframe_Run",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "fps": 6,
+          "loop": true
+        }
+      ],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/Decor/ceiling_lamp.png",
+      "group": "CeilingLamp",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "frameCount": 3,
+      "pivotX": 0.5,
+      "pivotY": 1.0,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [
+        {
+          "name": "CeilingLamp_Flicker",
+          "frames": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            1
+          ],
+          "fps": 12,
+          "loop": true
+        }
+      ],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/Decor/props_16.png",
+      "group": "Props",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "frameCount": 10,
+      "pivotX": 0.5,
+      "pivotY": 0.0,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/Effects/sparks.png",
+      "group": "Sparks",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "frameCount": 6,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [
+        {
+          "name": "Sparks_Burst",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "fps": 18,
+          "loop": false
+        }
+      ],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/Effects/dust_puff.png",
+      "group": "DustPuff",
+      "frameWidth": 16,
+      "frameHeight": 8,
+      "frameCount": 5,
+      "pivotX": 0.5,
+      "pivotY": 0.0,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [
+        {
+          "name": "DustPuff_Play",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "fps": 16,
+          "loop": false
+        }
+      ],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/Effects/record_marker.png",
+      "group": "RecordMarker",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "frameCount": 9,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "border": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "animations": [
+        {
+          "name": "RecordMarker_Rec",
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "fps": 6,
+          "loop": true
+        },
+        {
+          "name": "RecordMarker_Play",
+          "frames": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "fps": 6,
+          "loop": true
+        },
+        {
+          "name": "RecordMarker_Registered",
+          "frames": [
+            8
+          ],
+          "fps": 1,
+          "loop": true
+        }
+      ],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/Effects/interact_prompt.png",
+      "group": "InteractPrompt",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "frameCount": 4,
+      "pivotX": 0.5,
+      "pivotY": 0.0,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [
+        {
+          "name": "InteractPrompt_Bob",
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "fps": 4,
+          "loop": true
+        }
+      ],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/Effects/rewind_glitch_overlay.png",
+      "group": "RewindGlitch",
+      "frameWidth": 320,
+      "frameHeight": 180,
+      "frameCount": 4,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [
+        {
+          "name": "RewindGlitch_Play",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            1,
+            0
+          ],
+          "fps": 20,
+          "loop": true
+        }
+      ],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/Effects/crt_overlay.png",
+      "group": "CRTOverlay",
+      "frameWidth": 320,
+      "frameHeight": 180,
+      "frameCount": 1,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/UI/keys_16.png",
+      "group": "UIKeys",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "frameCount": 16,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [
+        {
+          "name": "Key_A_Press",
+          "frames": [
+            0,
+            8
+          ],
+          "fps": 2,
+          "loop": true
+        },
+        {
+          "name": "Key_D_Press",
+          "frames": [
+            1,
+            9
+          ],
+          "fps": 2,
+          "loop": true
+        },
+        {
+          "name": "Key_E_Press",
+          "frames": [
+            2,
+            10
+          ],
+          "fps": 2,
+          "loop": true
+        },
+        {
+          "name": "Key_R_Press",
+          "frames": [
+            3,
+            11
+          ],
+          "fps": 2,
+          "loop": true
+        },
+        {
+          "name": "Key_F_Press",
+          "frames": [
+            4,
+            12
+          ],
+          "fps": 2,
+          "loop": true
+        },
+        {
+          "name": "Key_Q_Press",
+          "frames": [
+            5,
+            13
+          ],
+          "fps": 2,
+          "loop": true
+        },
+        {
+          "name": "Key_LEFT_Press",
+          "frames": [
+            6,
+            14
+          ],
+          "fps": 2,
+          "loop": true
+        },
+        {
+          "name": "Key_RIGHT_Press",
+          "frames": [
+            7,
+            15
+          ],
+          "fps": 2,
+          "loop": true
+        }
+      ],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/UI/key_esc.png",
+      "group": "UIKeys",
+      "frameWidth": 24,
+      "frameHeight": 16,
+      "frameCount": 2,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [
+        {
+          "name": "Key_Esc_Press",
+          "frames": [
+            0,
+            1
+          ],
+          "fps": 2,
+          "loop": true
+        }
+      ],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/UI/key_space.png",
+      "group": "UIKeys",
+      "frameWidth": 40,
+      "frameHeight": 16,
+      "frameCount": 2,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [
+        {
+          "name": "Key_Space_Press",
+          "frames": [
+            0,
+            1
+          ],
+          "fps": 2,
+          "loop": true
+        }
+      ],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/UI/tape_mode_icons.png",
+      "group": "UIIcons",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "frameCount": 12,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [
+        {
+          "name": "Icon_Idle_Blink",
+          "frames": [
+            0,
+            6
+          ],
+          "fps": 3,
+          "loop": true
+        },
+        {
+          "name": "Icon_Rec_Blink",
+          "frames": [
+            1,
+            7
+          ],
+          "fps": 3,
+          "loop": true
+        },
+        {
+          "name": "Icon_Play_Blink",
+          "frames": [
+            2,
+            8
+          ],
+          "fps": 3,
+          "loop": true
+        },
+        {
+          "name": "Icon_Rew_Blink",
+          "frames": [
+            3,
+            9
+          ],
+          "fps": 3,
+          "loop": true
+        },
+        {
+          "name": "Icon_Full_Blink",
+          "frames": [
+            4,
+            10
+          ],
+          "fps": 3,
+          "loop": true
+        },
+        {
+          "name": "Icon_Stop_Blink",
+          "frames": [
+            5,
+            11
+          ],
+          "fps": 3,
+          "loop": true
+        }
+      ],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/UI/hud_cassette.png",
+      "group": "UICassette",
+      "frameWidth": 32,
+      "frameHeight": 16,
+      "frameCount": 6,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [
+        {
+          "name": "HudCassette_Spin",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "fps": 12,
+          "loop": true
+        },
+        {
+          "name": "HudCassette_Rewind",
+          "frames": [
+            5,
+            3,
+            1
+          ],
+          "fps": 18,
+          "loop": true
+        },
+        {
+          "name": "HudCassette_Idle",
+          "frames": [
+            0
+          ],
+          "fps": 1,
+          "loop": true
+        }
+      ],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/UI/panel_9slice.png",
+      "group": "UIPanels",
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frameCount": 3,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "border": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "animations": [],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/UI/button_9slice.png",
+      "group": "UIButtons",
+      "frameWidth": 32,
+      "frameHeight": 16,
+      "frameCount": 3,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "border": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "animations": [],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/UI/memory_bar_frame.png",
+      "group": "UIMemoryBar",
+      "frameWidth": 16,
+      "frameHeight": 12,
+      "frameCount": 1,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "border": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "animations": [],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/UI/memory_bar_cells.png",
+      "group": "UIMemoryBar",
+      "frameWidth": 4,
+      "frameHeight": 8,
+      "frameCount": 4,
+      "pivotX": 0.0,
+      "pivotY": 0.5,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/UI/cursor.png",
+      "group": "UICursor",
+      "frameWidth": 8,
+      "frameHeight": 8,
+      "frameCount": 2,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [
+        {
+          "name": "Cursor_Blink",
+          "frames": [
+            0,
+            1
+          ],
+          "fps": 2,
+          "loop": true
+        }
+      ],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/UI/ui_scanlines.png",
+      "group": "UIScanlines",
+      "frameWidth": 1,
+      "frameHeight": 4,
+      "frameCount": 1,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": true
+    },
+    {
+      "path": "Assets/Art/UI/title_logo.png",
+      "group": "UILogo",
+      "frameWidth": 176,
+      "frameHeight": 48,
+      "frameCount": 2,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [
+        {
+          "name": "TitleLogo_Flicker",
+          "frames": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "fps": 12,
+          "loop": true
+        }
+      ],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/Intro/bg_exterior.png",
+      "group": "Intro",
+      "frameWidth": 320,
+      "frameHeight": 180,
+      "frameCount": 1,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/Intro/exterior_ground.png",
+      "group": "Intro",
+      "frameWidth": 640,
+      "frameHeight": 56,
+      "frameCount": 1,
+      "pivotX": 0.0,
+      "pivotY": 0.8571428571428571,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/Intro/bunker.png",
+      "group": "Intro",
+      "frameWidth": 160,
+      "frameHeight": 112,
+      "frameCount": 4,
+      "pivotX": 0.5,
+      "pivotY": 0.0,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [
+        {
+          "name": "Bunker_Idle",
+          "frames": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "fps": 3,
+          "loop": true
+        },
+        {
+          "name": "Bunker_Online",
+          "frames": [
+            2,
+            2,
+            2,
+            3
+          ],
+          "fps": 3,
+          "loop": true
+        }
+      ],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/Intro/blast_door.png",
+      "group": "BlastDoor",
+      "frameWidth": 48,
+      "frameHeight": 56,
+      "frameCount": 8,
+      "pivotX": 0.5,
+      "pivotY": 0.0,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [
+        {
+          "name": "BlastDoor_Closed",
+          "frames": [
+            0
+          ],
+          "fps": 1,
+          "loop": true
+        },
+        {
+          "name": "BlastDoor_Opening",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "fps": 6,
+          "loop": false
+        },
+        {
+          "name": "BlastDoor_Open",
+          "frames": [
+            7
+          ],
+          "fps": 1,
+          "loop": true
+        }
+      ],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/Intro/portrait_operator.png",
+      "group": "Portraits",
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "frameCount": 4,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/Intro/portrait_system.png",
+      "group": "Portraits",
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "frameCount": 4,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/Intro/emergency_light.png",
+      "group": "Intro",
+      "frameWidth": 320,
+      "frameHeight": 180,
+      "frameCount": 1,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/Endings/nuke_explosion.png",
+      "group": "Nuke",
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "frameCount": 14,
+      "pivotX": 0.5,
+      "pivotY": 0.0,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [
+        {
+          "name": "Nuke_Blast",
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "fps": 6,
+          "loop": false
+        }
+      ],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/Endings/bunker_ruins.png",
+      "group": "Endings",
+      "frameWidth": 160,
+      "frameHeight": 56,
+      "frameCount": 1,
+      "pivotX": 0.5,
+      "pivotY": 0.0,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/Endings/bg_exterior_dawn.png",
+      "group": "Endings",
+      "frameWidth": 320,
+      "frameHeight": 180,
+      "frameCount": 1,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    },
+    {
+      "path": "Assets/Art/Endings/solid_white.png",
+      "group": "Endings",
+      "frameWidth": 4,
+      "frameHeight": 4,
+      "frameCount": 1,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "animations": [],
+      "tileFrames": [],
+      "tileFramesNoCollider": [],
+      "wrapRepeat": false
+    }
+  ],
+  "controllers": [
+    {
+      "name": "Operator",
+      "sheet": "Assets/Art/Characters/Operator/operator.png",
+      "folder": "Operator",
+      "defaultState": "Idle",
+      "sortingOrder": 10,
+      "parameters": [
+        {
+          "name": "Speed",
+          "type": "Float"
+        },
+        {
+          "name": "VelocityY",
+          "type": "Float"
+        },
+        {
+          "name": "Grounded",
+          "type": "Bool"
+        },
+        {
+          "name": "Interact",
+          "type": "Trigger"
+        },
+        {
+          "name": "Rewind",
+          "type": "Trigger"
+        },
+        {
+          "name": "Collapse",
+          "type": "Trigger"
+        }
+      ],
+      "states": [
+        {
+          "name": "Idle",
+          "clip": "Operator_Idle"
+        },
+        {
+          "name": "Walk",
+          "clip": "Operator_Walk"
+        },
+        {
+          "name": "Jump",
+          "clip": "Operator_Jump"
+        },
+        {
+          "name": "Fall",
+          "clip": "Operator_Fall"
+        },
+        {
+          "name": "Land",
+          "clip": "Operator_Land"
+        },
+        {
+          "name": "Interact",
+          "clip": "Operator_Interact"
+        },
+        {
+          "name": "Rewind",
+          "clip": "Operator_Rewind"
+        },
+        {
+          "name": "Collapse",
+          "clip": "Operator_Collapse"
+        },
+        {
+          "name": "Dead",
+          "clip": "Operator_Dead"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "Idle",
+          "to": "Walk",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "Speed",
+              "mode": "Greater",
+              "threshold": 0.1
+            },
+            {
+              "parameter": "Grounded",
+              "mode": "If",
+              "threshold": 0.0
+            }
+          ]
+        },
+        {
+          "from": "Walk",
+          "to": "Idle",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "Speed",
+              "mode": "Less",
+              "threshold": 0.1
+            }
+          ]
+        },
+        {
+          "from": "Idle",
+          "to": "Jump",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "Grounded",
+              "mode": "IfNot",
+              "threshold": 0.0
+            },
+            {
+              "parameter": "VelocityY",
+              "mode": "Greater",
+              "threshold": 0.1
+            }
+          ]
+        },
+        {
+          "from": "Walk",
+          "to": "Jump",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "Grounded",
+              "mode": "IfNot",
+              "threshold": 0.0
+            },
+            {
+              "parameter": "VelocityY",
+              "mode": "Greater",
+              "threshold": 0.1
+            }
+          ]
+        },
+        {
+          "from": "Idle",
+          "to": "Fall",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "Grounded",
+              "mode": "IfNot",
+              "threshold": 0.0
+            },
+            {
+              "parameter": "VelocityY",
+              "mode": "Less",
+              "threshold": -0.1
+            }
+          ]
+        },
+        {
+          "from": "Walk",
+          "to": "Fall",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "Grounded",
+              "mode": "IfNot",
+              "threshold": 0.0
+            },
+            {
+              "parameter": "VelocityY",
+              "mode": "Less",
+              "threshold": -0.1
+            }
+          ]
+        },
+        {
+          "from": "Jump",
+          "to": "Fall",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "VelocityY",
+              "mode": "Less",
+              "threshold": 0.0
+            }
+          ]
+        },
+        {
+          "from": "Jump",
+          "to": "Land",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "Grounded",
+              "mode": "If",
+              "threshold": 0.0
+            }
+          ]
+        },
+        {
+          "from": "Fall",
+          "to": "Land",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "Grounded",
+              "mode": "If",
+              "threshold": 0.0
+            }
+          ]
+        },
+        {
+          "from": "Land",
+          "to": "Walk",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "Speed",
+              "mode": "Greater",
+              "threshold": 0.1
+            }
+          ]
+        },
+        {
+          "from": "Land",
+          "to": "Idle",
+          "hasExitTime": true,
+          "exitTime": 1.0,
+          "conditions": []
+        },
+        {
+          "from": "Idle",
+          "to": "Interact",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "Interact",
+              "mode": "If",
+              "threshold": 0.0
+            }
+          ]
+        },
+        {
+          "from": "Walk",
+          "to": "Interact",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "Interact",
+              "mode": "If",
+              "threshold": 0.0
+            }
+          ]
+        },
+        {
+          "from": "Interact",
+          "to": "Idle",
+          "hasExitTime": true,
+          "exitTime": 1.0,
+          "conditions": []
+        },
+        {
+          "from": "Any",
+          "to": "Rewind",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "Rewind",
+              "mode": "If",
+              "threshold": 0.0
+            }
+          ]
+        },
+        {
+          "from": "Rewind",
+          "to": "Idle",
+          "hasExitTime": true,
+          "exitTime": 1.0,
+          "conditions": []
+        },
+        {
+          "from": "Any",
+          "to": "Collapse",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "Collapse",
+              "mode": "If",
+              "threshold": 0.0
+            }
+          ]
+        },
+        {
+          "from": "Collapse",
+          "to": "Dead",
+          "hasExitTime": true,
+          "exitTime": 1.0,
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "name": "TapeRecorder",
+      "sheet": "Assets/Art/Objects/TapeRecorder/tape_recorder.png",
+      "folder": "TapeRecorder",
+      "defaultState": "Idle",
+      "sortingOrder": 5,
+      "parameters": [
+        {
+          "name": "Mode",
+          "type": "Int"
+        }
+      ],
+      "states": [
+        {
+          "name": "Idle",
+          "clip": "TapeRecorder_Idle"
+        },
+        {
+          "name": "Recording",
+          "clip": "TapeRecorder_Recording"
+        },
+        {
+          "name": "Playback",
+          "clip": "TapeRecorder_Playback"
+        },
+        {
+          "name": "Rewind",
+          "clip": "TapeRecorder_Rewind"
+        },
+        {
+          "name": "MemoryFull",
+          "clip": "TapeRecorder_MemoryFull"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "Any",
+          "to": "Idle",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "Mode",
+              "mode": "Equals",
+              "threshold": 0.0
+            }
+          ]
+        },
+        {
+          "from": "Any",
+          "to": "Recording",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "Mode",
+              "mode": "Equals",
+              "threshold": 1.0
+            }
+          ]
+        },
+        {
+          "from": "Any",
+          "to": "Playback",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "Mode",
+              "mode": "Equals",
+              "threshold": 2.0
+            }
+          ]
+        },
+        {
+          "from": "Any",
+          "to": "Rewind",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "Mode",
+              "mode": "Equals",
+              "threshold": 3.0
+            }
+          ]
+        },
+        {
+          "from": "Any",
+          "to": "MemoryFull",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "Mode",
+              "mode": "Equals",
+              "threshold": 4.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Door",
+      "sheet": "Assets/Art/Objects/Door/door.png",
+      "folder": "Door",
+      "defaultState": "Closed",
+      "sortingOrder": 2,
+      "parameters": [
+        {
+          "name": "IsOpen",
+          "type": "Bool"
+        }
+      ],
+      "states": [
+        {
+          "name": "Closed",
+          "clip": "Door_Closed"
+        },
+        {
+          "name": "Opening",
+          "clip": "Door_Opening"
+        },
+        {
+          "name": "Open",
+          "clip": "Door_Open"
+        },
+        {
+          "name": "Closing",
+          "clip": "Door_Closing"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "Closed",
+          "to": "Opening",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "IsOpen",
+              "mode": "If",
+              "threshold": 0.0
+            }
+          ]
+        },
+        {
+          "from": "Opening",
+          "to": "Open",
+          "hasExitTime": true,
+          "exitTime": 1.0,
+          "conditions": []
+        },
+        {
+          "from": "Open",
+          "to": "Closing",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "IsOpen",
+              "mode": "IfNot",
+              "threshold": 0.0
+            }
+          ]
+        },
+        {
+          "from": "Closing",
+          "to": "Closed",
+          "hasExitTime": true,
+          "exitTime": 1.0,
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "name": "Switch",
+      "sheet": "Assets/Art/Objects/Switch/switch_lever.png",
+      "folder": "Switch",
+      "defaultState": "Off",
+      "sortingOrder": 3,
+      "parameters": [
+        {
+          "name": "IsOn",
+          "type": "Bool"
+        }
+      ],
+      "states": [
+        {
+          "name": "Off",
+          "clip": "Switch_Off"
+        },
+        {
+          "name": "TurningOn",
+          "clip": "Switch_TurningOn"
+        },
+        {
+          "name": "On",
+          "clip": "Switch_On"
+        },
+        {
+          "name": "TurningOff",
+          "clip": "Switch_TurningOff"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "Off",
+          "to": "TurningOn",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "IsOn",
+              "mode": "If",
+              "threshold": 0.0
+            }
+          ]
+        },
+        {
+          "from": "TurningOn",
+          "to": "On",
+          "hasExitTime": true,
+          "exitTime": 1.0,
+          "conditions": []
+        },
+        {
+          "from": "On",
+          "to": "TurningOff",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "IsOn",
+              "mode": "IfNot",
+              "threshold": 0.0
+            }
+          ]
+        },
+        {
+          "from": "TurningOff",
+          "to": "Off",
+          "hasExitTime": true,
+          "exitTime": 1.0,
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "name": "PowerSwitch",
+      "sheet": "Assets/Art/Objects/Switch/power_switch.png",
+      "folder": "PowerSwitch",
+      "defaultState": "Off",
+      "sortingOrder": 3,
+      "parameters": [
+        {
+          "name": "IsOn",
+          "type": "Bool"
+        }
+      ],
+      "states": [
+        {
+          "name": "Off",
+          "clip": "PowerSwitch_Off"
+        },
+        {
+          "name": "TurningOn",
+          "clip": "PowerSwitch_TurningOn"
+        },
+        {
+          "name": "On",
+          "clip": "PowerSwitch_On"
+        },
+        {
+          "name": "TurningOff",
+          "clip": "PowerSwitch_TurningOff"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "Off",
+          "to": "TurningOn",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "IsOn",
+              "mode": "If",
+              "threshold": 0.0
+            }
+          ]
+        },
+        {
+          "from": "TurningOn",
+          "to": "On",
+          "hasExitTime": true,
+          "exitTime": 1.0,
+          "conditions": []
+        },
+        {
+          "from": "On",
+          "to": "TurningOff",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "IsOn",
+              "mode": "IfNot",
+              "threshold": 0.0
+            }
+          ]
+        },
+        {
+          "from": "TurningOff",
+          "to": "Off",
+          "hasExitTime": true,
+          "exitTime": 1.0,
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "name": "MovingPlatform",
+      "sheet": "Assets/Art/Objects/MovingPlatform/moving_platform.png",
+      "folder": "MovingPlatform",
+      "defaultState": "Inactive",
+      "sortingOrder": 1,
+      "parameters": [
+        {
+          "name": "Mode",
+          "type": "Int"
+        }
+      ],
+      "states": [
+        {
+          "name": "Inactive",
+          "clip": "MovingPlatform_Inactive"
+        },
+        {
+          "name": "Active",
+          "clip": "MovingPlatform_Active"
+        },
+        {
+          "name": "Recording",
+          "clip": "MovingPlatform_Recording"
+        },
+        {
+          "name": "Playback",
+          "clip": "MovingPlatform_Playback"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "Any",
+          "to": "Inactive",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "Mode",
+              "mode": "Equals",
+              "threshold": 0.0
+            }
+          ]
+        },
+        {
+          "from": "Any",
+          "to": "Active",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "Mode",
+              "mode": "Equals",
+              "threshold": 1.0
+            }
+          ]
+        },
+        {
+          "from": "Any",
+          "to": "Recording",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "Mode",
+              "mode": "Equals",
+              "threshold": 2.0
+            }
+          ]
+        },
+        {
+          "from": "Any",
+          "to": "Playback",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "Mode",
+              "mode": "Equals",
+              "threshold": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Conveyor",
+      "sheet": "Assets/Art/Objects/Conveyor/conveyor.png",
+      "folder": "Conveyor",
+      "defaultState": "Off",
+      "sortingOrder": 1,
+      "parameters": [
+        {
+          "name": "Mode",
+          "type": "Int"
+        }
+      ],
+      "states": [
+        {
+          "name": "Off",
+          "clip": "Conveyor_Off"
+        },
+        {
+          "name": "Right",
+          "clip": "Conveyor_Right"
+        },
+        {
+          "name": "Left",
+          "clip": "Conveyor_Left"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "Any",
+          "to": "Off",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "Mode",
+              "mode": "Equals",
+              "threshold": 0.0
+            }
+          ]
+        },
+        {
+          "from": "Any",
+          "to": "Right",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "Mode",
+              "mode": "Equals",
+              "threshold": 1.0
+            }
+          ]
+        },
+        {
+          "from": "Any",
+          "to": "Left",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "Mode",
+              "mode": "Equals",
+              "threshold": 2.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CRTMonitor",
+      "sheet": "Assets/Art/Objects/CRTMonitor/crt_monitor.png",
+      "folder": "CRTMonitor",
+      "defaultState": "On",
+      "sortingOrder": 1,
+      "parameters": [
+        {
+          "name": "Mode",
+          "type": "Int"
+        }
+      ],
+      "states": [
+        {
+          "name": "On",
+          "clip": "CRTMonitor_On"
+        },
+        {
+          "name": "Error",
+          "clip": "CRTMonitor_Error"
+        },
+        {
+          "name": "Off",
+          "clip": "CRTMonitor_Off"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "Any",
+          "to": "On",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "Mode",
+              "mode": "Equals",
+              "threshold": 0.0
+            }
+          ]
+        },
+        {
+          "from": "Any",
+          "to": "Error",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "Mode",
+              "mode": "Equals",
+              "threshold": 1.0
+            }
+          ]
+        },
+        {
+          "from": "Any",
+          "to": "Off",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "Mode",
+              "mode": "Equals",
+              "threshold": 2.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MainTerminal",
+      "sheet": "Assets/Art/Objects/Terminal/main_terminal.png",
+      "folder": "MainTerminal",
+      "defaultState": "Off",
+      "sortingOrder": 1,
+      "parameters": [
+        {
+          "name": "Mode",
+          "type": "Int"
+        }
+      ],
+      "states": [
+        {
+          "name": "Off",
+          "clip": "MainTerminal_Off"
+        },
+        {
+          "name": "Locked",
+          "clip": "MainTerminal_Locked"
+        },
+        {
+          "name": "Active",
+          "clip": "MainTerminal_Active"
+        },
+        {
+          "name": "Glitch",
+          "clip": "MainTerminal_Glitch"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "Any",
+          "to": "Off",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "Mode",
+              "mode": "Equals",
+              "threshold": 0.0
+            }
+          ]
+        },
+        {
+          "from": "Any",
+          "to": "Locked",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "Mode",
+              "mode": "Equals",
+              "threshold": 1.0
+            }
+          ]
+        },
+        {
+          "from": "Any",
+          "to": "Active",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "Mode",
+              "mode": "Equals",
+              "threshold": 2.0
+            }
+          ]
+        },
+        {
+          "from": "Any",
+          "to": "Glitch",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "Mode",
+              "mode": "Equals",
+              "threshold": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ExitTerminal",
+      "sheet": "Assets/Art/Objects/Terminal/exit_terminal.png",
+      "folder": "ExitTerminal",
+      "defaultState": "Locked",
+      "sortingOrder": 1,
+      "parameters": [
+        {
+          "name": "IsUnlocked",
+          "type": "Bool"
+        }
+      ],
+      "states": [
+        {
+          "name": "Locked",
+          "clip": "ExitTerminal_Locked"
+        },
+        {
+          "name": "Unlocked",
+          "clip": "ExitTerminal_Unlocked"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "Locked",
+          "to": "Unlocked",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "IsUnlocked",
+              "mode": "If",
+              "threshold": 0.0
+            }
+          ]
+        },
+        {
+          "from": "Unlocked",
+          "to": "Locked",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "IsUnlocked",
+              "mode": "IfNot",
+              "threshold": 0.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MainComputer",
+      "sheet": "Assets/Art/Objects/Terminal/main_computer.png",
+      "folder": "MainComputer",
+      "defaultState": "Off",
+      "sortingOrder": 1,
+      "parameters": [
+        {
+          "name": "Mode",
+          "type": "Int"
+        }
+      ],
+      "states": [
+        {
+          "name": "Off",
+          "clip": "MainComputer_Off"
+        },
+        {
+          "name": "Locked",
+          "clip": "MainComputer_Locked"
+        },
+        {
+          "name": "Active",
+          "clip": "MainComputer_Active"
+        },
+        {
+          "name": "Glitch",
+          "clip": "MainComputer_Glitch"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "Any",
+          "to": "Off",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "Mode",
+              "mode": "Equals",
+              "threshold": 0.0
+            }
+          ]
+        },
+        {
+          "from": "Any",
+          "to": "Locked",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "Mode",
+              "mode": "Equals",
+              "threshold": 1.0
+            }
+          ]
+        },
+        {
+          "from": "Any",
+          "to": "Active",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "Mode",
+              "mode": "Equals",
+              "threshold": 2.0
+            }
+          ]
+        },
+        {
+          "from": "Any",
+          "to": "Glitch",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "Mode",
+              "mode": "Equals",
+              "threshold": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SmallTerminal",
+      "sheet": "Assets/Art/Objects/Terminal/small_terminal.png",
+      "folder": "SmallTerminal",
+      "defaultState": "Off",
+      "sortingOrder": 1,
+      "parameters": [
+        {
+          "name": "Mode",
+          "type": "Int"
+        }
+      ],
+      "states": [
+        {
+          "name": "Off",
+          "clip": "SmallTerminal_Off"
+        },
+        {
+          "name": "Standby",
+          "clip": "SmallTerminal_Standby"
+        },
+        {
+          "name": "Active",
+          "clip": "SmallTerminal_Active"
+        },
+        {
+          "name": "Error",
+          "clip": "SmallTerminal_Error"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "Any",
+          "to": "Off",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "Mode",
+              "mode": "Equals",
+              "threshold": 0.0
+            }
+          ]
+        },
+        {
+          "from": "Any",
+          "to": "Standby",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "Mode",
+              "mode": "Equals",
+              "threshold": 1.0
+            }
+          ]
+        },
+        {
+          "from": "Any",
+          "to": "Active",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "Mode",
+              "mode": "Equals",
+              "threshold": 2.0
+            }
+          ]
+        },
+        {
+          "from": "Any",
+          "to": "Error",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "Mode",
+              "mode": "Equals",
+              "threshold": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VentFan",
+      "sheet": "Assets/Art/Decor/vent_fan.png",
+      "folder": "VentFan",
+      "defaultState": "Loop",
+      "sortingOrder": 0,
+      "parameters": [],
+      "states": [
+        {
+          "name": "Loop",
+          "clip": "VentFan_Spin"
+        }
+      ],
+      "transitions": []
+    },
+    {
+      "name": "WarningBeacon",
+      "sheet": "Assets/Art/Decor/warning_beacon.png",
+      "folder": "WarningBeacon",
+      "defaultState": "Loop",
+      "sortingOrder": 0,
+      "parameters": [],
+      "states": [
+        {
+          "name": "Loop",
+          "clip": "WarningBeacon_Spin"
+        }
+      ],
+      "transitions": []
+    },
+    {
+      "name": "Mainframe",
+      "sheet": "Assets/Art/Decor/mainframe_tape_drive.png",
+      "folder": "Mainframe",
+      "defaultState": "Loop",
+      "sortingOrder": 0,
+      "parameters": [],
+      "states": [
+        {
+          "name": "Loop",
+          "clip": "Mainframe_Run"
+        }
+      ],
+      "transitions": []
+    },
+    {
+      "name": "CeilingLamp",
+      "sheet": "Assets/Art/Decor/ceiling_lamp.png",
+      "folder": "CeilingLamp",
+      "defaultState": "Loop",
+      "sortingOrder": 0,
+      "parameters": [],
+      "states": [
+        {
+          "name": "Loop",
+          "clip": "CeilingLamp_Flicker"
+        }
+      ],
+      "transitions": []
+    },
+    {
+      "name": "Sparks",
+      "sheet": "Assets/Art/Effects/sparks.png",
+      "folder": "Sparks",
+      "defaultState": "Loop",
+      "sortingOrder": 0,
+      "parameters": [],
+      "states": [
+        {
+          "name": "Loop",
+          "clip": "Sparks_Burst"
+        }
+      ],
+      "transitions": []
+    },
+    {
+      "name": "DustPuff",
+      "sheet": "Assets/Art/Effects/dust_puff.png",
+      "folder": "DustPuff",
+      "defaultState": "Loop",
+      "sortingOrder": 0,
+      "parameters": [],
+      "states": [
+        {
+          "name": "Loop",
+          "clip": "DustPuff_Play"
+        }
+      ],
+      "transitions": []
+    },
+    {
+      "name": "RecordMarker",
+      "sheet": "Assets/Art/Effects/record_marker.png",
+      "folder": "RecordMarker",
+      "defaultState": "Registered",
+      "sortingOrder": 20,
+      "parameters": [
+        {
+          "name": "Mode",
+          "type": "Int"
+        }
+      ],
+      "states": [
+        {
+          "name": "Registered",
+          "clip": "RecordMarker_Registered"
+        },
+        {
+          "name": "Rec",
+          "clip": "RecordMarker_Rec"
+        },
+        {
+          "name": "Play",
+          "clip": "RecordMarker_Play"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "Any",
+          "to": "Registered",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "Mode",
+              "mode": "Equals",
+              "threshold": 0.0
+            }
+          ]
+        },
+        {
+          "from": "Any",
+          "to": "Rec",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "Mode",
+              "mode": "Equals",
+              "threshold": 1.0
+            }
+          ]
+        },
+        {
+          "from": "Any",
+          "to": "Play",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "Mode",
+              "mode": "Equals",
+              "threshold": 2.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "InteractPrompt",
+      "sheet": "Assets/Art/Effects/interact_prompt.png",
+      "folder": "InteractPrompt",
+      "defaultState": "Loop",
+      "sortingOrder": 0,
+      "parameters": [],
+      "states": [
+        {
+          "name": "Loop",
+          "clip": "InteractPrompt_Bob"
+        }
+      ],
+      "transitions": []
+    },
+    {
+      "name": "RewindGlitch",
+      "sheet": "Assets/Art/Effects/rewind_glitch_overlay.png",
+      "folder": "RewindGlitch",
+      "defaultState": "Loop",
+      "sortingOrder": 0,
+      "parameters": [],
+      "states": [
+        {
+          "name": "Loop",
+          "clip": "RewindGlitch_Play"
+        }
+      ],
+      "transitions": []
+    },
+    {
+      "name": "TitleLogo",
+      "sheet": "Assets/Art/UI/title_logo.png",
+      "folder": "TitleLogo",
+      "defaultState": "Loop",
+      "sortingOrder": 0,
+      "parameters": [],
+      "states": [
+        {
+          "name": "Loop",
+          "clip": "TitleLogo_Flicker"
+        }
+      ],
+      "transitions": []
+    },
+    {
+      "name": "Bunker",
+      "sheet": "Assets/Art/Intro/bunker.png",
+      "folder": "Intro",
+      "defaultState": "Idle",
+      "sortingOrder": 0,
+      "parameters": [
+        {
+          "name": "Mode",
+          "type": "Int"
+        }
+      ],
+      "states": [
+        {
+          "name": "Idle",
+          "clip": "Bunker_Idle"
+        },
+        {
+          "name": "Online",
+          "clip": "Bunker_Online"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "Any",
+          "to": "Idle",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "Mode",
+              "mode": "Equals",
+              "threshold": 0.0
+            }
+          ]
+        },
+        {
+          "from": "Any",
+          "to": "Online",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "Mode",
+              "mode": "Equals",
+              "threshold": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BlastDoor",
+      "sheet": "Assets/Art/Intro/blast_door.png",
+      "folder": "BlastDoor",
+      "defaultState": "Closed",
+      "sortingOrder": 3,
+      "parameters": [
+        {
+          "name": "IsOpen",
+          "type": "Bool"
+        }
+      ],
+      "states": [
+        {
+          "name": "Closed",
+          "clip": "BlastDoor_Closed"
+        },
+        {
+          "name": "Opening",
+          "clip": "BlastDoor_Opening"
+        },
+        {
+          "name": "Open",
+          "clip": "BlastDoor_Open"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "Closed",
+          "to": "Opening",
+          "hasExitTime": false,
+          "exitTime": 0.0,
+          "conditions": [
+            {
+              "parameter": "IsOpen",
+              "mode": "If",
+              "threshold": 0.0
+            }
+          ]
+        },
+        {
+          "from": "Opening",
+          "to": "Open",
+          "hasExitTime": true,
+          "exitTime": 1.0,
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "name": "Nuke",
+      "sheet": "Assets/Art/Endings/nuke_explosion.png",
+      "folder": "Nuke",
+      "defaultState": "Loop",
+      "sortingOrder": 0,
+      "parameters": [],
+      "states": [
+        {
+          "name": "Loop",
+          "clip": "Nuke_Blast"
+        }
+      ],
+      "transitions": []
+    }
+  ],
+  "pixelsPerUnit": 16
+}

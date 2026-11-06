@@ -6,7 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: 54becdcb4cb2ad345a0581f74d4108a8
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Ending_Fail.unity
+    guid: 55183fa54da13a94e922ff27521b79ba
+  - enabled: 1
+    path: Assets/Scenes/Ending_Bad.unity
+    guid: 3b531543a080419409f7d8de4849d920
+  - enabled: 1
+    path: Assets/Scenes/Ending_Good.unity
+    guid: a59fac26a3ce7e74091e6f264720a253
   m_configObjects:
+    com.unity.dt.app-ui: {fileID: 11400000, guid: 1b1c20d82303e4b5781c3ef50ac1449f, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

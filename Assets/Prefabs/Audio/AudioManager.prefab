@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7155922125274223774
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8023261709620308276}
+  - component: {fileID: 1853597566113172071}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8023261709620308276
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7155922125274223774}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1853597566113172071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7155922125274223774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5be569501bd8824ea534cf8b12e7a9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AudioManager
+  defaultMusic: {fileID: 8300000, guid: a89a5257ae87a5a4695c8a29e4c51d5d, type: 3}
+  musicFadeTime: 2.5
+  ambienceFadeTime: 1.2
+  musicVolume: 0.55
+  sfxVolume: 0.8
+  ambienceVolume: 0.6
+  sounds:
+  - id: 0
+    clip: {fileID: 8300000, guid: 642e2f489b03fdd4b8de38f156e32864, type: 3}
+    volume: 0.5
+    pitchJitter: 0.05
+  - id: 1
+    clip: {fileID: 8300000, guid: 19267275f79fc3841b202098f2bb9fdb, type: 3}
+    volume: 0.8
+    pitchJitter: 0.05
+  - id: 2
+    clip: {fileID: 8300000, guid: 76ad94de413036c42885d051a3165000, type: 3}
+    volume: 0.6
+    pitchJitter: 0.1
+  - id: 3
+    clip: {fileID: 8300000, guid: bea995f3360827842a1f5c8e2e753153, type: 3}
+    volume: 0.9
+    pitchJitter: 0
+  - id: 4
+    clip: {fileID: 8300000, guid: eff8d357980028a468944b4627b76aaf, type: 3}
+    volume: 0.9
+    pitchJitter: 0
+  - id: 5
+    clip: {fileID: 8300000, guid: 9eac4e0b71ade0046b49b8875635fc40, type: 3}
+    volume: 0.9
+    pitchJitter: 0
+  - id: 6
+    clip: {fileID: 8300000, guid: b626442e6303e8a4ab06ca2639dd373e, type: 3}
+    volume: 0.8
+    pitchJitter: 0
+  - id: 7
+    clip: {fileID: 8300000, guid: e9a24f840e3db2a468160cc581f7f492, type: 3}
+    volume: 0.9
+    pitchJitter: 0.03
+  - id: 8
+    clip: {fileID: 8300000, guid: e5dcb9711018a3d479287e925b982b96, type: 3}
+    volume: 0.9
+    pitchJitter: 0
+  - id: 9
+    clip: {fileID: 8300000, guid: d14937b40d189fe449a5987be87436f0, type: 3}
+    volume: 0.9
+    pitchJitter: 0
+  - id: 10
+    clip: {fileID: 8300000, guid: fd2b94a5c06963d419340be64b0f735f, type: 3}
+    volume: 0.6
+    pitchJitter: 0.03
+  - id: 11
+    clip: {fileID: 8300000, guid: 7cfb91c493f08dd43bb348f0346566ab, type: 3}
+    volume: 0.8
+    pitchJitter: 0.1
+  - id: 12
+    clip: {fileID: 8300000, guid: ebe8b2ae5ee17f147a56abe753a22acf, type: 3}
+    volume: 0.9
+    pitchJitter: 0
+  - id: 13
+    clip: {fileID: 8300000, guid: 766e53b5790ff444dac19c7d04371c0c, type: 3}
+    volume: 0.9
+    pitchJitter: 0
+  - id: 14
+    clip: {fileID: 8300000, guid: 38d9c431050753946b9f4e28499b87be, type: 3}
+    volume: 0.9
+    pitchJitter: 0
+  - id: 15
+    clip: {fileID: 8300000, guid: 54b7328392ebe6c41ae34f9043fac7c7, type: 3}
+    volume: 1
+    pitchJitter: 0
+  - id: 16
+    clip: {fileID: 8300000, guid: caad741a37f15fe478c0781901e4054d, type: 3}
+    volume: 0.9
+    pitchJitter: 0
+  - id: 17
+    clip: {fileID: 8300000, guid: 9865054092724df42beea8ac303834f2, type: 3}
+    volume: 0.8
+    pitchJitter: 0
+  - id: 18
+    clip: {fileID: 8300000, guid: 7a7b0b60f117b6e4e9a6ee24b83d3db8, type: 3}
+    volume: 0.9
+    pitchJitter: 0
+  - id: 19
+    clip: {fileID: 8300000, guid: a4d1259838a93ed48ace81b7a793d4b5, type: 3}
+    volume: 0.8
+    pitchJitter: 0
+  - id: 20
+    clip: {fileID: 8300000, guid: 372b9dbe00e2d964aacf5ea79047cdc2, type: 3}
+    volume: 1
+    pitchJitter: 0
+  voices: 12
